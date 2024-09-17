@@ -43,6 +43,15 @@ dependencies:
   permission_handler: ^10.4.3
   geolocator: ^13.0.1
 
+  video_player: ^2.9.1
+  connectivity_plus: ^6.0.5
+  image_picker: ^0.8.7+3
+
+  shared_preferences: ^2.3.2
+  network_info_plus: ^6.0.1
+  awesome_notifications_fcm: ^0.9.3+1
+  get: ^4.6.6
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task_new/permissionhandler/permissionhandlerdemo.dart';
+import 'package:flutter_task_new/sharedpreference/sharedpreferencedemo.dart';
 import 'package:flutter_task_new/snackbar/demo.dart';
+import 'package:flutter_task_new/url/urlLauncher.dart';
+import 'package:flutter_task_new/url/urldemomodel.dart';
 
 import 'cachednetworkimage/cachednetworkdemo.dart';
 import 'components/bottom_navigation.dart';
+import 'connectivityplus/connectivityplusdemo.dart';
+import 'getx/getxdemo.dart';
+import 'imagepicker/imagepickerdemo_1.dart';
+import 'network/network_handling.dart';
+import 'notifications/notification.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +44,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: PermissionHandlerApp(),
+      debugShowCheckedModeBanner: false,
+      home:CounterPage(),
     );
   }
 }
